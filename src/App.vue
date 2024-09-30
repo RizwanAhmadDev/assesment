@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <EmailForm />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EmailForm from './components/EmailForm.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    EmailForm,
+  },
+};
 </script>
 
 <style>
